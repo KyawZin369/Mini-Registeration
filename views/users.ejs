@@ -1,0 +1,13 @@
+<%- include("./partials/Title.ejs") %>
+  <body>
+    <div>
+      <h1>User List</h1>
+      <ul class="user-list">
+        <% userName.forEach((name) => { %>
+        <li><%= name %></li>
+        <% }) %>
+        <button><a href="/">Back</a></button>
+      </ul>
+    </div>
+  </body>
+</html>
